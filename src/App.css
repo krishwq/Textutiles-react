@@ -1,0 +1,25 @@
+body{
+  overflow-y: scroll;
+  background-color: rgb(1 3 55);
+}
+.form-check-input:focus{
+  border: 1px solid black;
+  box-shadow: none;
+}
+.container {
+  width: 70vw;
+}
+#mybox::placeholder{
+  color: rgb(23, 181, 181);
+}
+.btn{
+  padding: 0.5rem;
+  border: none;
+}
+textarea {
+  resize: none;
+}
+.form-check-input:checked {
+  background-color:black;
+  border-color: black;
+}
