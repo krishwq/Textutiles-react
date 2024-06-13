@@ -21,7 +21,7 @@ export default function Navbar(props) {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <Link className="nav-link active" aria-current="page" to="/" onClick={()=>{document.title="Case Converter-Home"}}>
+                <Link className="nav-link active" aria-current="page" to="/Textutiles-react" onClick={()=>{document.title="Case Converter-Home"}}>
                    Home
                 </Link>
                 {/* <a className="nav-link active" aria-current="page" href="#" onClick={()=>{document.title="Case Converter-Home"}}>

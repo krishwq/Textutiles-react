@@ -67,7 +67,7 @@ function App() {
           <Route exact path="/About">
             <About/>
           </Route>
-          <Route exact path="/">
+          <Route exact path="/Textutiles-react">
           <Text
           heading="Enter your text to analyse below"
           mode={mode}
