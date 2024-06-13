@@ -1,7 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-// import {Link} from "react-router-dom";
-// import { Link } from "react-router-dom";
+import {Link} from "react-router-dom";
 
 export default function Navbar(props) {
   return (
@@ -22,23 +21,23 @@ export default function Navbar(props) {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                {/* <Link className="nav-link active" aria-current="page" to="/" onClick={()=>{document.title="Case Converter-Home"}}>
+                <Link className="nav-link active" aria-current="page" to="/" onClick={()=>{document.title="Case Converter-Home"}}>
                    Home
-                </Link> */}
-                <a className="nav-link active" aria-current="page" href="#" onClick={()=>{document.title="Case Converter-Home"}}>
+                </Link>
+                {/* <a className="nav-link active" aria-current="page" href="#" onClick={()=>{document.title="Case Converter-Home"}}>
                    Home
-                </a>
+                </a> */}
               </li>
               <li className="nav-item">
-                {/* <Link className="nav-link active" to="/About" onClick={()=>{document.title="Case Converter-About"}}>
+                <Link className="nav-link active" to="/About" onClick={()=>{document.title="Case Converter-About"}}>
                   {props.title}
-                </Link> */}
-                <a className="nav-link active" href="#" onClick={()=>{document.title="Case Converter-About"}}>
+                </Link>
+                {/* <a className="nav-link active" href="#" onClick={()=>{document.title="Case Converter-About"}}>
                   {props.title}
-                </a>
+                </a> */}
               </li>
               <li className="nav-item dropdown">
-                {/* <Link
+                <Link
                   className="nav-link dropdown-toggle active"
                   to="/education"
                   role="button"
@@ -46,8 +45,8 @@ export default function Navbar(props) {
                   aria-expanded="false"
                 >
                   Education
-                </Link> */}
-                <a
+                </Link>
+                {/* <a
                   className="nav-link dropdown-toggle active"
                   href="#"
                   role="button"
@@ -55,31 +54,31 @@ export default function Navbar(props) {
                   aria-expanded="false"
                 >
                   Education
-                </a>
+                </a> */}
                 <ul className="dropdown-menu">
                   <li>
-                    {/* <Link className="dropdown-item" to="/">
+                    <Link className="dropdown-item" to="/">
                       Primary Education
-                    </Link> */}
-                    <a className="dropdown-item" href="#">
+                    </Link>
+                    {/* <a className="dropdown-item" href="#">
                       Primary Education
-                    </a>
+                    </a> */}
                   </li>
                   <li>
-                    {/* <Link className="dropdown-item" to="/">
+                    <Link className="dropdown-item" to="/">
                       School Education
-                    </Link> */}
-                     <a className="dropdown-item" href="#">
+                    </Link>
+                     {/* <a className="dropdown-item" href="#">
                       School Education
-                    </a>
+                    </a> */}
                   </li>
                   <li>
-                    {/* <Link className="dropdown-item" to="/">
+                    <Link className="dropdown-item" to="/">
                       Higher Education
-                    </Link> */}
-                     <a className="dropdown-item" href="#">
+                    </Link>
+                     {/* <a className="dropdown-item" href="#">
                      Higher Education
-                    </a>
+                    </a> */}
                   </li>
                 </ul>
               </li>
