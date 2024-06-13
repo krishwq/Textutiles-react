@@ -1,14 +1,14 @@
 import "./App.css";
 import Alart from "./components/Alart";
-// import About from "./components/About";
+import About from "./components/About";
 import Navbar from "./components/Navbar";
 import Text from "./components/Text";
 import React, { useState } from "react";
-// import {
-//   BrowserRouter as Router,
-//   Switch,
-//   Route
-// } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route
+} from "react-router-dom";
 function App() {
   const [mode, setMode] = useState("dark");
   const [alart, setAlart] = useState(null);
@@ -51,15 +51,15 @@ function App() {
 
   return (
     <>
-    <Navbar title="About" mode={mode} toggleBtn={tooglemode} />
+    {/* <Navbar title="About" mode={mode} toggleBtn={tooglemode} />
       <Alart alart={alart} />
       <div className="container"> <Text
           heading="Enter your text to analyse below"
           mode={mode}
           showalart={showalart}
           btn={btnBg}
-        /></div>
-    {/* <Router>
+        /></div> */}
+    <Router>
       <Navbar title="About" mode={mode} toggleBtn={tooglemode} />
       <Alart alart={alart} />
       <div className="container">
@@ -77,7 +77,7 @@ function App() {
           </Route>
         </Switch>
       </div>
-      </Router> */}
+      </Router>
     </>
   );
 }
